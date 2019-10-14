@@ -45,7 +45,7 @@ class Profile extends React.Component {
     return (
       <div>
         <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">
-          <Navbar.Brand href="#home">Ohpen</Navbar.Brand>
+          <Navbar.Brand href="/">Ohpen</Navbar.Brand>
           <Nav className="ml-auto">
             <Nav.Link href="#" onClick={this.handleSignOutClick}>Sign out</Nav.Link>
           </Nav>

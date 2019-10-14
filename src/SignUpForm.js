@@ -4,7 +4,6 @@ import { Link } from "react-router-dom";
 import Button from 'react-bootstrap/Button';
 import Form from 'react-bootstrap/Form';
 import { Auth } from "aws-amplify";
-import FormErrors from "./FormErrors.js";
 
 class SignUpForm extends React.Component {
   constructor(props) {
