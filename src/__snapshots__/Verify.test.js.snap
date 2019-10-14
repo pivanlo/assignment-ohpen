@@ -1,0 +1,41 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+<div
+  className="formContainer"
+>
+  <form
+    className="form-signin"
+    onSubmit={[Function]}
+  >
+    <h1>
+      Verification
+    </h1>
+    <div
+      className="form-group"
+    >
+      <div
+        className="mb-2"
+      >
+        Please enter the verification code that was sent to your phone.
+      </div>
+      <input
+        className="form-control"
+        id="formGroupMobileNumber"
+        onChange={[Function]}
+        onFocus={[Function]}
+        type="number"
+        value=""
+      />
+    </div>
+    <button
+      className="btn btn-dark btn-block"
+      disabled={false}
+      type="submit"
+    >
+      Verify
+    </button>
+    
+  </form>
+</div>
+`;
