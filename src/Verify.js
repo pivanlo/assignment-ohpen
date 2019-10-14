@@ -64,7 +64,7 @@ class Verify extends React.Component {
           <h1>Verification</h1>
 
           <Form.Group controlId="formGroupMobileNumber">
-            <div className="mb-2">Please enter the verification code that was sent to your phone.</div>
+            <div className="mb-2">Please enter the verification code that was sent to your email.</div>
             <Form.Control type="number" value={this.state.verificationCode}
               onChange={this.handleChange}
               onFocus={this.clearFormError}
