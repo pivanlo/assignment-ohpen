@@ -1,0 +1,45 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly for managers 1`] = `
+<div>
+  <nav
+    className="navbar navbar-expand-lg navbar-dark bg-dark"
+  >
+    <a
+      className="navbar-brand"
+      href="#home"
+    >
+      Ohpen
+    </a>
+    <div
+      className="ml-auto navbar-nav"
+      onKeyDown={[Function]}
+    >
+      <a
+        className="nav-link"
+        data-rb-event-key="#"
+        href="#"
+        onClick={[Function]}
+        onKeyDown={[Function]}
+        role="button"
+      >
+        Sign out
+      </a>
+    </div>
+  </nav>
+  <div
+    className="container mt-5"
+  >
+    <h1
+      className="mb-4"
+    >
+      Only Managers
+    </h1>
+    <p>
+      This page is only accesible to managers.
+    </p>
+  </div>
+</div>
+`;
+
+exports[`renders correctly for non-managers 1`] = `null`;
