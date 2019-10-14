@@ -1,0 +1,91 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+<div
+  className="formContainer"
+>
+  <form
+    className="form-signin"
+    onSubmit={[Function]}
+  >
+    <h1>
+      Sign up
+    </h1>
+    <div
+      className="form-group"
+    >
+      <label
+        className="form-label"
+        htmlFor="formGroupUsername"
+      >
+        Username
+      </label>
+      <input
+        className="form-control"
+        id="formGroupUsername"
+        onChange={[Function]}
+        onFocus={[Function]}
+        type="text"
+        value=""
+      />
+    </div>
+    <div
+      className="form-group"
+    >
+      <label
+        className="form-label"
+        htmlFor="formEmail"
+      >
+        Email
+      </label>
+      <input
+        className="form-control"
+        id="formEmail"
+        onChange={[Function]}
+        onFocus={[Function]}
+        type="email"
+        value=""
+      />
+    </div>
+    <div
+      className="form-group"
+    >
+      <label
+        className="form-label"
+        htmlFor="formGroupPassword"
+      >
+        Password
+      </label>
+      <input
+        className="form-control"
+        id="formGroupPassword"
+        onChange={[Function]}
+        onFocus={[Function]}
+        type="password"
+        value=""
+      />
+    </div>
+    <button
+      className="btn btn-dark btn-block"
+      disabled={false}
+      type="submit"
+    >
+      Sign up
+    </button>
+    <div
+      className="mt-3"
+    >
+      <span>
+        I'm already a member, 
+      </span>
+      <a
+        href="/sign-in"
+        onClick={[Function]}
+      >
+        Sign in
+      </a>
+    </div>
+    
+  </form>
+</div>
+`;
